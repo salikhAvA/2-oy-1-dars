@@ -23,8 +23,11 @@ li, a {
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.923077px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #83888F;
+}
+.ttu {
+    text-transform: uppercase;
 }
 .for-text {
     font-family: 'Barlow';
@@ -45,6 +48,19 @@ li, a {
 } 
 .for-mb {
     margin-bottom: 24px;
+}
+.btn {
+    background-color: #0E8784;
+    color: #FEFCF7;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
 }
 /* -- header -- */
 .site-logo {
@@ -94,19 +110,7 @@ li, a {
     opacity: 0.8;
     margin-bottom: 55px;
 }
-.btn {
-    background-color: #0E8784;
-    color: #FEFCF7;
-    padding: 15px 30px;
-    border-radius: 6px;
-    font-family: 'Fraunces 9pt';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #FEFCF7;
-}
+
 .text-center {
     text-align: center;
 }
@@ -139,7 +143,7 @@ li, a {
     font-weight: 900;
     font-size: 24px;
     line-height: 32px;
-    text-align: center;
+    /* text-align: center; */
     color: #333D4B;
 }
 .card-subtitle {
@@ -148,7 +152,7 @@ li, a {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
+    /* text-align: center; */
     color: #333D4B;
 }
 
@@ -193,5 +197,66 @@ li, a {
     width: 72px;
     height: 72px;
     margin: 72px auto 56px auto;
+}
+
+/* -- How it works -- */
+#works-heading {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 80px;
+}
+/* .line-box {
+    justify-content: space-between;
+    align-items: center;
+} */
+#line {
+    width: 760px;
+    margin-bottom: 82px;
+    height: 2px;
+    color: #0E8784;
+    background: #000;
+}
+.works-cards {
+    justify-content: start;
+    margin-bottom: 64px;
+}
+.works-card {
+    width: 285px;
+    margin-right: 90px;
+}
+.works-title {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+.works-subtitle {
+    margin-bottom: 42px;
+    width: 55%;
+}
+
+/* -- footer -- */
+footer {
+    margin-bottom: 88px;
+}
+.footer-box {
+    height: 120px;
+    padding: 85px;
+    background-color: #2C343E;
+}
+.footer-logo {
+    width: 622px;
+    justify-content: space-between;
+}
+.footer-icons {
+    width: 120px;
+    justify-content: space-between;
 }
 
