@@ -200,7 +200,7 @@ li, a {
 }
 
 /* -- How it works -- */
-#works-heading {
+.works-heading {
     font-family: 'Fraunces 9pt';
     font-style: normal;
     font-weight: 900;
@@ -259,4 +259,68 @@ footer {
     width: 120px;
     justify-content: space-between;
 }
+
+
+
+
+
+/* ------ about hero ------ */
+.hero_bg {
+    background-image: url('images/Bitmap.jpg');
+    width: 1280px;
+    height: 450px;
+    border-radius: 10px;
+}
+.about-hero {
+    padding-right: 85px;
+    align-items: center;
+}
+.about-main-content {
+    justify-content: space-around;
+    align-items: center;
+}
+.about-main-img, .about-main-text {
+    width: 40%;
+}
+.about-text-content {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+
+.quality {
+    width: 1280px;
+    height: 474px;
+    background: #2C343E;
+    border-radius: 10px;
+    padding-top: 85px;
+    padding-left: 85px;
+    /* justify-content: space-between; */
+    position: relative;
+}
+.quality-box {
+    display: inline-block;
+    width: 540px;
+    height: 210px;
+    margin-right: 125px;
+}
+
+.quality-img {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 88px;
+}
+
+/* -- Our headquarters -- */
+.countreis {
+    justify-content: space-between;
+}
+.united-king {
+    margin-bottom: 45px;
+}
+
 
